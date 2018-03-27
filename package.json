@@ -1,0 +1,20 @@
+{
+  "name": "js-webpack-minimal",
+  "version": "1.0.0",
+  "description": "A minimal boilerplate starter-kit for ES6+ with just Webpack and Babel",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.dev.js --mode development",
+    "build": "webpack --config ./webpack.prod.js --mode production"
+  },
+  "author": "Madusha Prasanjith",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.3.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
